@@ -1,0 +1,6 @@
+{
+  "name": "Vyora",
+  "description": "Vyora is an AI-powered Personal Finance and Wealth Management Platform designed to help users track expenses, manage budgets, build savings, monitor investments, and receive intelligent financial insights for smarter financial decisions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

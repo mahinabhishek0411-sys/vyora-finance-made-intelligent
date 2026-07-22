@@ -1,0 +1,121 @@
+{
+  "users": {
+    "usr_445d09d7x": {
+      "id": "usr_445d09d7x",
+      "email": "mahinabhishek0411@gmail.com",
+      "name": "Mahin Abhishek",
+      "securityQuestion": "What was your first pet's name?",
+      "securityAnswer": "lovebirds",
+      "theme": "dark",
+      "financialScore": 660,
+      "passwordHash": "$2b$10$TNk8H16uHgjxwsPEDG7s4eHyKEDM4fN9m7MiQGUlgEuE/JxJzj5Ou"
+    },
+    "usr_e1ncei3hn": {
+      "id": "usr_e1ncei3hn",
+      "email": "test@example.com",
+      "name": "Test User",
+      "securityQuestion": "pet",
+      "securityAnswer": "dog",
+      "theme": "light",
+      "financialScore": 65,
+      "passwordHash": "$2b$10$MN1CYmW0jbgN4GWKrC8L.erA/fz3toWD/UoahLFuJsPe7yCHr.YW6"
+    }
+  },
+  "transactions": {
+    "tx_diacktdtv": {
+      "id": "tx_diacktdtv",
+      "userId": "usr_445d09d7x",
+      "amount": 23450,
+      "type": "income",
+      "category": "Food",
+      "description": "",
+      "date": "2026-07-18",
+      "isRecurring": false,
+      "recurrenceInterval": "none",
+      "upiRef": "",
+      "isOffline": false,
+      "syncStatus": "synced"
+    },
+    "tx_uysuqgrf1": {
+      "id": "tx_uysuqgrf1",
+      "userId": "usr_445d09d7x",
+      "amount": 10000,
+      "type": "income",
+      "category": "Food",
+      "description": "",
+      "date": "2026-07-18",
+      "isRecurring": false,
+      "recurrenceInterval": "none",
+      "upiRef": "",
+      "isOffline": false,
+      "syncStatus": "synced"
+    }
+  },
+  "budgets": {},
+  "goals": {},
+  "categories": {},
+  "reminders": {},
+  "achievements": {
+    "usr_445d09d7x": [
+      {
+        "id": "ach_1",
+        "userId": "usr_445d09d7x",
+        "title": "Welcome to Vyora",
+        "description": "Registered your brand new Vyora account.",
+        "icon": "UserPlus",
+        "dateEarned": "2026-07-18"
+      },
+      {
+        "id": "ach_first_tx",
+        "userId": "usr_445d09d7x",
+        "title": "First Ledger Post",
+        "description": "Logged your very first income or expense!",
+        "icon": "Activity",
+        "dateEarned": "2026-07-18"
+      }
+    ],
+    "usr_e1ncei3hn": [
+      {
+        "id": "ach_1",
+        "userId": "usr_e1ncei3hn",
+        "title": "Welcome to Vyora",
+        "description": "Registered your brand new Vyora account.",
+        "icon": "UserPlus",
+        "dateEarned": "2026-07-18"
+      }
+    ]
+  },
+  "notifications": {},
+  "challenges": [
+    {
+      "id": "c1",
+      "title": "Frugal Feaster",
+      "description": "Spend less than ₹5,000 on Food this month.",
+      "rewardPoints": 100,
+      "targetValue": 5000,
+      "currentValue": 0,
+      "isCompleted": false,
+      "type": "expense_cap"
+    },
+    {
+      "id": "c2",
+      "title": "Savings Sprint",
+      "description": "Add ₹10,000 to any Savings Goal.",
+      "rewardPoints": 150,
+      "targetValue": 10000,
+      "currentValue": 0,
+      "isCompleted": false,
+      "type": "savings_add"
+    },
+    {
+      "id": "c3",
+      "title": "No Spend Days",
+      "description": "Keep your miscellaneous and entertainment expenses under ₹1,500.",
+      "rewardPoints": 80,
+      "targetValue": 1500,
+      "currentValue": 0,
+      "isCompleted": false,
+      "type": "expense_cap"
+    }
+  ]
+}

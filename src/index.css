@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+/* Enable high-fidelity, polished, and accessible Light Mode overrides */
+.light {
+  background-color: #f8fafc !important; /* slate-50 */
+  color: #1e293b !important; /* slate-800 */
+}
+
+/* Main layouts and cards background overriding */
+.light .bg-slate-950,
+.light .bg-slate-900,
+.light .bg-slate-800,
+.light .bg-slate-950\/95,
+.light .bg-slate-900\/60,
+.light .bg-slate-900\/30,
+.light .bg-slate-800\/20,
+.light .bg-slate-800\/40,
+.light .bg-slate-850,
+.light .bg-slate-850\/40,
+.light .bg-slate-900\/20 {
+  background-color: #ffffff !important;
+  color: #1e293b !important;
+}
+
+/* Specific cards styling */
+.light .bg-slate-800\/20 {
+  background-color: #ffffff !important;
+  box-shadow: 0 4px 20px -2px rgba(15, 23, 42, 0.05) !important;
+  border-color: #e2e8f0 !important;
+}
+
+/* Light text contrast adjustments */
+.light .text-white,
+.light .text-slate-100,
+.light .text-slate-200,
+.light .text-slate-300 {
+  color: #0f172a !important; /* slate-900 */
+}
+
+.light .text-slate-400,
+.light .text-slate-500 {
+  color: #475569 !important; /* slate-600 */
+}
+
+/* Light border lines adjustment */
+.light .border-slate-800,
+.light .border-slate-850,
+.light .border-slate-700\/10,
+.light .border-slate-700\/30,
+.light .border-slate-700\/40,
+.light .border-slate-700\/60,
+.light .border-slate-800\/40,
+.light .border-slate-900 {
+  border-color: #e2e8f0 !important; /* slate-200 */
+}
+
+/* Light inputs, textareas, selects */
+.light input,
+.light select,
+.light textarea {
+  background-color: #ffffff !important;
+  color: #0f172a !important;
+  border-color: #cbd5e1 !important; /* slate-300 */
+}
+
+.light input::placeholder,
+.light textarea::placeholder {
+  color: #94a3b8 !important; /* slate-400 */
+}
+
+.light input:focus,
+.light select:focus,
+.light textarea:focus {
+  border-color: #10b981 !important; /* emerald-500 */
+  --tw-ring-color: #10b981 !important;
+}
+
+/* Hover effects inside lists and grids */
+.light .hover\:bg-slate-800\/40:hover,
+.light .hover\:bg-slate-850:hover,
+.light .hover\:bg-slate-900\/60:hover {
+  background-color: #f1f5f9 !important; /* slate-100 */
+}
+
+/* Fix graphs, badges and ledger elements */
+.light .bg-slate-900\/60 {
+  background-color: #f8fafc !important;
+}
+
+.light .bg-slate-900\/30 {
+  background-color: #f1f5f9 !important;
+}
+
+
